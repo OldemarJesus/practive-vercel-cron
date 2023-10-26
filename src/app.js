@@ -16,7 +16,7 @@ app.use('/cron', cronRoutes)
  */
 app.get('/', (_, res) => {
     return res
-        .send("server running...")
+        .send({status: "server runing..."})
         .status(200)
 })
 

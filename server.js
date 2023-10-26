@@ -5,7 +5,7 @@ const dotenv = require('dotenv')
  * Default config
  */
 dotenv.config()
-const PORT = process.env.PORT
+const PORT = process.env.PORT == undefined ? 3000 : process.env.PORT
 
 /**
  * Start server

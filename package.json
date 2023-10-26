@@ -4,8 +4,8 @@
   "description": "This a cron project to execute task periodically",
   "main": "server.js",
   "scripts": {
-    "dev": "npx nodemon server.js",
-    "start": "node server.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
